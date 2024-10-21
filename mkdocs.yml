@@ -1,0 +1,136 @@
+site_name: Association "Cloud Native Suisse Romande"
+site_description: >-
+  We aim to connect end users, contributors, and maintainers of cloud native computing (CNC) projects, 
+  within the Suisse Romande region
+copyright: >-
+  Copyright &copy; 2024 - Association "Cloud Native Suisse Romande" and all contributors.
+  The content and the license are licensed under CC BY 4.0
+repo_url: https://github.com/cloud-native-suisse-romande/website
+repo_name: GitHub Repo
+edit_uri: edit/main/
+site_url: https://cloud-native-suisse-romande.github.io/website
+
+# Build
+site_dir: _site
+docs_dir: .
+
+nav:
+  - About: index.md
+  - Members:
+    - Current Members: governance/association/members.md
+    - Joining the Association: governance/policies/2_membership-process.md
+  - Resources:
+    - Association Charter: governance/association/charter.md
+    - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
+    - Privacy Policy: governance/policies/1_privacy-policy.md
+
+
+plugins:
+  - search
+  - autorefs
+  - macros
+  - mkdocs-pdf
+  - social
+  - same-dir
+  - group:
+      enabled: !ENV [FULL_BUILD, true]
+      plugins:
+      - multirepo:
+          # TODO: Change to True once works
+          cleanup: false
+          keep_docs_dir: true
+          nav_repos:
+          - name: governance
+            import_url: 'https://github.com/cloud-native-suisse-romande/governance?branch=main&edit_uri=/blob/main/'
+
+  - group:
+      enabled: !ENV [INSIDERS, true]
+      plugins:
+        - optimize
+  - redirects:
+      redirect_maps:
+
+
+# Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: '#'
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - mdx_truly_sane_lists
+
+# Theme
+theme:
+  name: material
+  custom_dir: overrides
+  highlightjs: true
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    # NOT compatible qith toc.integrate
+    # - navigation.indexes
+    - navigation.path
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  font:
+    text: DM Sans
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  favicon: assets/images/logo.png
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/css/theme.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cloud-native-suisse-romande
+      name: GitHub
