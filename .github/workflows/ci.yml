@@ -38,8 +38,8 @@ jobs:
       - name: Build in the dev container image
         uses: devcontainers/ci@v0.3
         with:
-            imageName: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
-            cacheFrom: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
+            imageName: ghcr.io/cloud-native-suisse-romande/website-builder
+            cacheFrom: ghcr.io/cloud-native-suisse-romande/website-builder
             push: never
             runCmd: |
               pip install git+https://${PIP_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
