@@ -15,15 +15,17 @@ site_dir: _site
 docs_dir: .
 
 nav:
-  - About: index.md
+  - About:
+    - Association Charter: governance/association/charter.md
   - Members:
     - Current Members: governance/association/members.md
     - Joining the Association: governance/policies/2_membership-process.md
   - Resources:
-    - Association Charter: governance/association/charter.md
     - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
     - Privacy Policy: governance/policies/1_privacy-policy.md
-
+    - Contributing to this Site: CONTRIBUTING.md
+    - Content License: LICENSE.txt
+    - Contacts: contacts.md
 
 plugins:
   - search
