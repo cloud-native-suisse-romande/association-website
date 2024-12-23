@@ -8,7 +8,7 @@ copyright: >-
 repo_url: https://github.com/cloud-native-suisse-romande/website
 repo_name: GitHub Repo
 edit_uri: edit/main/
-site_url: https://cloud-native-suisse-romande.github.io/website
+site_url: https://cloud-native-romandy.ch/
 
 # Build
 site_dir: _site
