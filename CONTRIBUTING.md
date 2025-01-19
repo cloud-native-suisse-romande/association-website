@@ -1,5 +1,8 @@
 # Contributing to the Site
 
+If you are interested in contributing to the association (events, meetups, etc.),
+see [our website](./index.md).
+
 ## Quick Start
 
 For the local development without full rebuild:

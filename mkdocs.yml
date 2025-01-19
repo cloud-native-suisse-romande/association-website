@@ -1,9 +1,9 @@
 site_name: Association "Cloud Native Suisse Romande"
 site_description: >-
-  We aim to connect end users, contributors, and maintainers of cloud native computing (CNC) projects, 
-  within the Suisse Romande region
+  Our association aims to connect end users, contributors, and maintainers of cloud native computing projects,
+  within the Suisse Romande region.
 copyright: >-
-  Copyright &copy; 2024 - Association "Cloud Native Suisse Romande" and all contributors.
+  Copyright &copy; 2024-2025 - Association "Cloud Native Suisse Romande" and all contributors.
   The content and the license are licensed under CC BY 4.0
 repo_url: https://github.com/cloud-native-suisse-romande/website
 repo_name: GitHub Repo
@@ -20,12 +20,14 @@ nav:
     - KCD Suisse Romande 2025: events/kcd/README.md
     - Cloud Native Meetups: events/meetups/README.md
     - Kubetrain Europe: events/kubetrain/README.md
-  - Members:
-    - Current Members: governance/association/members.md
-    - Joining the Association: governance/policies/2_membership-process.md
-  - Resources:
+  - "Join Us!":
+    - Join the Association: members/join.md
+  - Governance:
     - Association Charter: governance/association/charter.md
     - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
+    - Membership Process: governance/policies/2_membership-process.md 
+    - Current Members: governance/association/members.md
+  - Resources:
     - Privacy Policy: governance/policies/1_privacy-policy.md
     - Contributing to this Site: CONTRIBUTING.md
     - Content License: LICENSE.txt
