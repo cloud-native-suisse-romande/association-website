@@ -87,38 +87,30 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <img src="assets/images/logo.png" alt="Cloud Native Suisse Romande logo" width="360" draggable="false">
+          <img src="assets/images/logo/logo.png" alt="Cloud Native Suisse Romande logo" width="360" draggable="false">
         </div>
         <div class="mdx-hero__content">
           <h1>Cloud Native Suisse Romande *</h1>
           <p>{{ config.site_description }}</p>
+          <p>On 04-05 December 2025, we will be organizing <a href="{{ 'events/kcd' | url }}">KCD Suisse Romande</a>. Save the date!</p>
           <p>* - Logo is temporary, ideas are <a href="https://github.com/cloud-native-suisse-romande/governance/issues/16" target="_blank">welcome</a>!</p>
         </div>
         <div class="mdx-hero__buttons">
-          <a href="{{ 'events' | url }}" title="Events" class="md-button md-button--primary">
+          <a href="{{ 'events/kcd' | url }}" title="Events" class="md-button md-button--primary">
+            KCD Suisse Romande
+          </a>
+          <a href="{{ 'events' | url }}" title="Events" class="md-button">
             Events
           </a>
-          <a href="{{ 'governance/association/members' | url }}" title="Memberships" class="md-button">
-            Memberships
-          </a>
-          <a href="{{ 'governance/association/charter' | url }}" title="Participate" class="md-button">
-            Charter
+          <a href="{{ 'members/join' | url }}" title="Memberships" class="md-button">
+            Join Us!
           </a>
         </div>
       </div>
     </div>
   </section>
 {% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}
-<div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      {% include "partials/copyright.html" %}
 
-      <!-- Social links -->
-      {% if config.extra.social %}
-        {% include "partials/social.html" %}
-      {% endif %}
-    </div>
-  </div>
+{% block content %}
 {% endblock %}
+
