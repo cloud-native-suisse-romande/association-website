@@ -9,6 +9,8 @@ description: >
 
 <img style="float:right; width:300px;" src="./images/kcd_suisse_romande_logo.png">
 
+[![KCD Suisse Romande 2025](./images/header.png)](https://kcd.cloud-native-romandy.ch/)
+
 In December 2025, join us at CERN for Kubernetes Community Days (KCD)!
 This will be a full-day day event, focused on cloud native projects and the local community.
 The talks will be in both French and English.
@@ -20,7 +22,8 @@ KCDs are supported by the [Cloud Native Computing Foundation (CNCF)](https://cnc
 !!! note "Ongoing planning"
 
     This page is not the conference site, but an early informational resource.
-    We plan to publish the conference site on [community.cncf.io](https://community.cncf.io/) in early 2025, along with other KCDs.
+    We plan to publish more details in early 2025, along with other KCDs.
+    See the [conference site](https://kcd.cloud-native-romandy.ch/).
 
 ## Program
 
@@ -28,6 +31,8 @@ The program will be announced in mid-2025.
 We plan for 05 December 2025, Tuesday, as the main conference day.
 Some optional activities are to take place on 04 December.
 Below you can see the tentative agenda, subject to change.
+
+<img style="float:right; width:300px;" src="./images/logo.png">
 
 ### Pre-Conference
 
@@ -51,7 +56,7 @@ close to Geneva and the Geneva Airport.
 You can easily get there by tram from the Geneva downtown, parkings are available too.
 [How to get there](https://visit.cern/index.php/getting-here).
 
-![CERN](./images/cern.jpg)
+[![CERN](./images/cern.jpg)](https://kcd.cloud-native-romandy.ch/)
 
 ## Call for Papers
 
@@ -67,5 +72,4 @@ Sponsorships are to be announced!
 Be sure we will be looking for some.
 If you are interested, reach out to `contact at cloud-native-romandy.ch`.
 
-![Conference Room](./images/conference_room.jpg)
-
+[![Conference Room](./images/conference_room.jpg)](https://kcd.cloud-native-romandy.ch/)
