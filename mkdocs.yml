@@ -147,3 +147,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/cloud-native-suisse-romande
       name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cloud-native-suisse-romande
+      name: LinkedIn
