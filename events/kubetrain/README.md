@@ -38,7 +38,12 @@ For Paris to London, KubeTrain recommends Eurostar at 17h02.
 ## Booking
 
 We do not do centralized bookings in 2025.
+For Paris => London, the main KubeTrain option is sold out as of 06 Feb 2025,
+but you can book on your own.
 Please book the train rides on your own!
+
+If you book on your own but want to get a ticket to the KubeTrain party,
+send a message to Oleg Nenashev on the CNCF Slack.
 
 ## More Info
 
