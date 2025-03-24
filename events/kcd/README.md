@@ -7,8 +7,6 @@ description: >
 
 # KCD Suisse Romande 2025
 
-<img style="float:right; width:300px;" src="./images/kcd_suisse_romande_logo.png">
-
 [![KCD Suisse Romande 2025](./images/header.png)](https://kcd.cloud-native-romandy.ch/)
 
 In December 2025, join us at CERN for Kubernetes Community Days (KCD)!
