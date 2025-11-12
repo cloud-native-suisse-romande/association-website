@@ -22,11 +22,12 @@ nav:
     - Kubetrain Europe: events/kubetrain/README.md
   - "Join Us!":
     - Join the Association: members/join.md
+    - Current Members: governance/association/members.md
+    - Community Partners: governance/policies/3_community-partners.md 
   - Governance:
     - Association Charter: governance/association/charter.md
     - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
     - Membership Process: governance/policies/2_membership-process.md 
-    - Current Members: governance/association/members.md
   - Resources:
     - Privacy Policy: governance/policies/1_privacy-policy.md
     - Contributing to this Site: CONTRIBUTING.md
