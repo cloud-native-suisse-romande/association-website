@@ -17,7 +17,9 @@ docs_dir: .
 nav:
   - Events:
     - Overview: events/README.md
-    - KCD Suisse Romande 2025: events/kcd/README.md
+    - KCD Suisse Romande 2025:
+      - "Overview": events/kcd/README.md
+      - "Media Kit": kcd2025/mediakit/README.md
     - Cloud Native Meetups: events/meetups/README.md
     - Kubetrain Europe: events/kubetrain/README.md
   - "Join Us!":
@@ -51,6 +53,8 @@ plugins:
           nav_repos:
           - name: governance
             import_url: 'https://github.com/cloud-native-suisse-romande/governance?branch=main&edit_uri=/blob/main/'
+          - name: kcd2025
+            import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2025?branch=main&edit_uri=/blob/main/'
   - redirects:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
