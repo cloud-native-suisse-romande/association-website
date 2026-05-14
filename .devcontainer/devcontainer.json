@@ -1,8 +1,11 @@
 // Credits - https://github.com/hitsumabushi845/MkDocs-with-Remote-Containers
 {
-    "name": "Material for MkDocs",
-    "dockerFile": "Dockerfile",
-    "customizations": {
+	"name": "Material for MkDocs - VS Code dev container",
+	"image": "mcr.microsoft.com/devcontainers/python:3.12-trixie",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/markdownlint-cli:1": {}
+  },
+  "customizations": {
       "vscode": {
         // Set *default* container specific settings.json values on container create.
         "settings": {
@@ -24,9 +27,6 @@
     "forwardPorts": [
       8000
     ],
-    // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "pip3 install -r .devcontainer/requirements.txt "
-    // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-    //"remoteUser": "vscode"
-  }
-  
+	"postCreateCommand": "pip install -r .devcontainer/requirements.txt"
+}
+

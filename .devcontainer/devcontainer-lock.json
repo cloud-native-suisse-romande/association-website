@@ -1,0 +1,9 @@
+{
+  "features": {
+    "ghcr.io/devcontainers-extra/features/markdownlint-cli:1": {
+      "version": "1.0.2",
+      "resolved": "ghcr.io/devcontainers-extra/features/markdownlint-cli@sha256:c6da80d68ba3130d32adc3476fb10aac7f3c5649b9303a192320a17c4c88a371",
+      "integrity": "sha256:c6da80d68ba3130d32adc3476fb10aac7f3c5649b9303a192320a17c4c88a371"
+    }
+  }
+}
