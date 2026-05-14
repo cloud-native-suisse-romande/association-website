@@ -55,6 +55,8 @@ plugins:
             import_url: 'https://github.com/cloud-native-suisse-romande/governance?branch=main&edit_uri=/blob/main/'
           - name: kcd2025
             import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2025?branch=main&edit_uri=/blob/main/'
+          - name: kcd2026
+            import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2026?branch=main&edit_uri=/blob/main/'
   - redirects:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
