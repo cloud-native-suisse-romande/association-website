@@ -1,4 +1,8 @@
 {% extends "main.html" %}
+{% block scripts %}
+<link rel=stylesheet href="assets/css/theme.css">
+{% endblock %}
+
 {% block tabs %}
   {{ super() }}
 
@@ -77,8 +81,20 @@
     }
 
     [data-md-color-scheme="slate"] {
+      .mdx-hero__content {
+        color: var(--theme-white);
+      }
+
+      .mdx-hero__content a {
+        color: var(--theme-main-lite);
+      }
+
+      .mdx-hero__content a:hover {
+        color: var(--theme-light-blue);
+      }
+
       .md-button {
-        color: #f8f8f8;
+        color: var(--theme-white);
       }
     }
   </style>
@@ -92,8 +108,7 @@
         <div class="mdx-hero__content">
           <h1>Cloud Native Suisse Romande *</h1>
           <p>{{ config.site_description }}</p>
-          <p>On 04-05 December 2025, we will be organizing <a href="{{ 'events/kcd' | url }}">KCD Suisse Romande</a>. Save the date!</p>
-          <p>* - Logo is temporary, ideas are <a href="https://github.com/cloud-native-suisse-romande/governance/issues/16" target="_blank">welcome</a>!</p>
+          <p>On 09-10 December 2025, we will be organizing <a href="{{ 'events/kcd' | url }}">KCD Suisse Romande</a>. Save the date!</p>
         </div>
         <div class="mdx-hero__buttons">
           <a href="{{ 'events/kcd' | url }}" title="Events" class="md-button md-button--primary">
