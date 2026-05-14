@@ -12,6 +12,8 @@ You can contact the association members in the `#switzerland` channel on the [CN
 ## Social Media
 
 * [LinkedIn](https://www.linkedin.com/company/cloud-native-suisse-romande/)
+* [YouTube](https://www.youtube.com/@CloudNativeSuisseRomande)
+* [Bluesky](https://bsky.app/profile/cloud-native-romandy.ch)
 
 ## Other
 
