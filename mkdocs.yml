@@ -161,3 +161,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/cloud-native-suisse-romande
       name: LinkedIn
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@CloudNativeSuisseRomande
+      name: YouTube
