@@ -13,6 +13,12 @@ site_url: https://cloud-native-romandy.ch/
 # Build
 site_dir: _site
 docs_dir: .
+exclude_docs: |
+  .github
+  .git
+  .vscode
+  .multirepo
+  .devcontainer
 
 nav:
   - Events:
@@ -49,15 +55,19 @@ plugins:
       - multirepo:
           # TODO: Change to True once works
           cleanup: false
+          temp_dir: "association-website/.multirepo"
           keep_docs_dir: true
           nav_repos:
           - name: governance
             import_url: 'https://github.com/cloud-native-suisse-romande/governance?branch=main&edit_uri=/blob/main/'
           - name: kcd2025
             import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2025?branch=main&edit_uri=/blob/main/'
+          - name: kcd2026
+            import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2026?branch=main&edit_uri=/blob/main/'
   - redirects:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
+        'kcd2025/README.md': https://kcd.cloud-native-romandy.ch/
 
 
 # Markdown
@@ -151,3 +161,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/cloud-native-suisse-romande
       name: LinkedIn
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@CloudNativeSuisseRomande
+      name: YouTube

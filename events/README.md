@@ -4,11 +4,15 @@ The association aims to promote local events that are relevant to cloud native c
 and provide the necessary support to the organizers of those events.
 We also organize some events on our own.
 
-## Our Events
+## Kubernetes Community Days (KCD)
 
-* [KCD Suisse Romande 2025](./kcd/README.md) - a cloud native conference on December 04-05 in Geneva
+We organize the Kubernetes Community Days (KCD) conference in Suisse Romande:
 
-## Events
+* [KCD Suisse Romande 2026](../kcd2026/README.md) - 09-10 December 2026, CERN
+* [KCD Suisse Romande 2025](../kcd2025/README.md) - 04-05 December 2025, CERN
 
-* [Local Meetups](./meetups/README.md)
+## Other Events
+
 * [KubeTrain Europe](./kubetrain/README.md) from Lausanne and Geneva
+* [Local Meetups](./meetups/README.md)
+

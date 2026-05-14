@@ -8,7 +8,7 @@ If you're on the CNCF Slack, join us on the `#switzerland` channel!
 
 ## Resources
 
-[Assosciation and Governance](https://github.com/cloud-native-suisse-romande/governance), 
+[Association and Governance](https://github.com/cloud-native-suisse-romande/governance), 
 [CNCF Bevy Chapter](https://community.cncf.io/cloud-native-suisse-romande/)
 
 ## Contributing
