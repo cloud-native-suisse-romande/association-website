@@ -25,6 +25,22 @@ For the local development without full rebuild:
 FULL_BUILD=false INSIDERS=false mkdocs serve
 ```
 
+## Style Guide
+
+### Color Schema
+
+The main Color scheme is built around the logo colors:
+
+- Blue: `#326ce5`
+- Red: `#ff0000`
+- White: `#ffffff`
+
+Additional colors:
+
+- Dark Blue: `#1a36b4`
+- Gray for backgrounds and covers: `#f6f5ec`
+- Text and Hyperlink colors for the dark mode: `#58a6ff`
+
 ## License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/oleg-nenashev/oleg-nenashev">This site</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/oleg-nenashev/">Oleg Nenashev</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>

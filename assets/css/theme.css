@@ -1,16 +1,25 @@
 :root {
-    --theme-background: #34365F;
-    --theme-background-lite: #f8f8f8;
-    --theme-main: #06518E;
-    --theme-main-lite: #3d89c7;
+    --theme-blue: #326ce5;
+    --theme-red: #ff0000;
+    --theme-white: #ffffff;
+    --theme-dark-blue: #1a36b4;
+    --theme-gray: #f6f5ec;
+    --theme-light-blue: #58a6ff;
+
+    --theme-background: var(--theme-dark-blue);
+    --theme-background-lite: var(--theme-gray);
+    --theme-main: var(--theme-dark-blue);
+    --theme-main-lite: var(--theme-blue);
 
     --md-primary-fg-color:        var(--theme-background);
     --md-primary-fg-color--light: var(--theme-background-lite);
-    --md-primary-fg-color--dark:  var(--theme-background);
+    --md-primary-fg-color--dark:  var(--theme-dark-blue);
+    --md-accent-fg-color:         var(--theme-red);
+    --md-default-bg-color:        var(--theme-white);
 }
 
 .md-content {
-    --md-typeset-a-color: var(--theme-main-lite);
+    --md-typeset-a-color: var(--theme-main);
 }
 
 /* headers */
@@ -31,6 +40,12 @@ h2, h3, h4 {
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
     --md-hue: 210;
-    --theme-main: #f8f8f8;
-    --theme-main-lite: rgb(138, 151, 206);
+    --theme-main: var(--theme-light-blue);
+    --theme-main-lite: var(--theme-blue);
+    --md-primary-fg-color: var(--theme-dark-blue);
+    --md-primary-fg-color--light: var(--theme-blue);
+    --md-primary-fg-color--dark: var(--theme-dark-blue);
+    --md-accent-fg-color: var(--theme-red);
+    --md-typeset-a-color: var(--theme-main-lite);
 }
+
