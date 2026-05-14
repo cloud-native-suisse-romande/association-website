@@ -9,7 +9,7 @@ We also organize some events on our own.
 We organize the Kubernetes Community Days (KCD) conference in Suisse Romande:
 
 * [KCD Suisse Romande 2026](../kcd2026/README.md) - 09-10 December 2026, CERN
-* [KCD Suisse Romande 2025](./kcd/README.md) - 04-05 December 2025, CERN
+* [KCD Suisse Romande 2025](../kcd2025/README.md) - 04-05 December 2025, CERN
 
 ## Other Events
 
