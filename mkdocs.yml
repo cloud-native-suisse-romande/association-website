@@ -13,6 +13,12 @@ site_url: https://cloud-native-romandy.ch/
 # Build
 site_dir: _site
 docs_dir: .
+exclude_docs: |
+  .github
+  .git
+  .vscode
+  .multirepo
+  .devcontainer
 
 nav:
   - Events:
@@ -49,6 +55,7 @@ plugins:
       - multirepo:
           # TODO: Change to True once works
           cleanup: false
+          temp_dir: "association-website/.multirepo"
           keep_docs_dir: true
           nav_repos:
           - name: governance
