@@ -61,10 +61,13 @@ plugins:
           nav_repos:
           - name: governance
             import_url: 'https://github.com/cloud-native-suisse-romande/governance?branch=main&edit_uri=/blob/main/'
+            imports: [ /* ]
           - name: kcd2025
             import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2025?branch=main&edit_uri=/blob/main/'
+            imports: [ /* ]
           - name: kcd2026
             import_url: 'https://github.com/cloud-native-suisse-romande/kcd-suisse-romande-2026?branch=main&edit_uri=/blob/main/'
+            imports: [ /* ]
   - redirects:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
