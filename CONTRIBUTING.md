@@ -19,15 +19,24 @@ and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material).
 
 ## Quick Start
 
-For the local development without full rebuild:
+For the local development without a full rebuild:
 
 ```shell
 FULL_BUILD=false INSIDERS=false mkdocs serve
 ```
 
-## Style Guide
+## Editing
 
-### Color Schema
+If you are a coding agent, see also the [Copilot Instructions](./.github/copilot-instructions.md) :)
+
+### Contribution Flow
+
+We keep it simple.
+Just fork a repository and submit your changes as a pull request when ready.
+
+### Style Guide
+
+#### Color Schema
 
 The main Color scheme is built around the logo colors:
 
@@ -40,6 +49,11 @@ Additional colors:
 - Dark Blue: `#1a36b4`
 - Gray for backgrounds and covers: `#f6f5ec`
 - Text and Hyperlink colors for the dark mode: `#58a6ff`
+
+## Deployment
+
+The website is deployed automatically when the changes are merged into the main repository.
+For included repositories (governance, KCD), it is possible to manually trigger the deployment pipeline [here](https://github.com/cloud-native-suisse-romande/association-website/actions/workflows/deploy.yml).
 
 ## License
 
