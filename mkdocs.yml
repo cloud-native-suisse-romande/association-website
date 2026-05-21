@@ -4,7 +4,8 @@ site_description: >-
   within the Suisse Romande region.
 copyright: >-
   Copyright &copy; 2024-2026 - Association "Cloud Native Suisse Romande" and all contributors.
-  The content and the license are licensed under CC BY 4.0
+  The content and the license are licensed under CC BY 4.0.<br/>
+  <a href="https://www.cloud-native-romandy.ch/privacy-policy">Privacy Policy</a> - <a href="https://www.cloud-native-romandy.ch/impressum">Impressum</a> - <a href="https://www.cloud-native-romandy.ch/contacts">Contacts</a>
 repo_url: https://github.com/cloud-native-suisse-romande/website
 repo_name: GitHub Repo
 edit_uri: edit/main/
@@ -38,10 +39,12 @@ nav:
     - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
     - Membership Process: governance/policies/2_membership-process.md
   - Resources:
+    - Contacts: contacts.md
     - Privacy Policy: governance/policies/1_privacy-policy.md
+    - Impressum: impressum.md
     - Contributing to this Site: CONTRIBUTING.md
     - Content License: LICENSE.txt
-    - Contacts: contacts.md
+
 
 plugins:
   - search
@@ -72,6 +75,7 @@ plugins:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
         'kcd2025/README.md': https://kcd.cloud-native-romandy.ch/
+        'privacy-policy.md': policies/1_privacy-policy/README.md
 
 
 # Markdown

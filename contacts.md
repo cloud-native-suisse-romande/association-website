@@ -7,7 +7,7 @@
 
 ## Slack
 
-You can contact the association members in the `#switzerland` channel on the [CNCF Slack](https://slack.cncf.io/).
+You can contact the association members in the `#switzerland` or `#kcd-suisse-romande` channel on the [CNCF Slack](https://slack.cncf.io/).
 
 ## Social Media
 
