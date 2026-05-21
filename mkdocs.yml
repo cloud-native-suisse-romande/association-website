@@ -33,15 +33,18 @@ nav:
   - "Join Us!":
     - Join the Association: members/join.md
     - Current Members: governance/association/members.md
-    - Community Partners: governance/policies/3_community-partners.md
+    - Community Partners: governance/association/partners.md
   - Governance:
     - Association Charter: governance/association/charter.md
     - Code of Conduct: governance/bylaws/CODE_OF_CONDUCT.md
     - Membership Process: governance/policies/2_membership-process.md
+    - Community Partnerships: governance/policies/3_community-partners.md
+    - Sponsorships: governance/association/sponsors.md
   - Resources:
     - Contacts: contacts.md
     - Privacy Policy: governance/policies/1_privacy-policy.md
     - Impressum: impressum.md
+    - Donations: governance/association/donations.md
     - Contributing to this Site: CONTRIBUTING.md
     - Content License: LICENSE.txt
 
