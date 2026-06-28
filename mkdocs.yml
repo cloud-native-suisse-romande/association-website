@@ -20,6 +20,7 @@ exclude_docs: |
   .vscode
   .multirepo
   .devcontainer
+  hooks
 
 nav:
   - Events:
@@ -48,6 +49,9 @@ nav:
     - Contributing to this Site: CONTRIBUTING.md
     - Content License: LICENSE.txt
 
+
+hooks:
+  - hooks/relative_raw_html_images.py
 
 plugins:
   - search
