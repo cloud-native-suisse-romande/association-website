@@ -27,6 +27,8 @@ nav:
     - Overview: events/README.md
     - KCD Suisse Romande 2026:
       - "Overview": kcd2026/README.md
+      - "Sponsors": kcd2026/sponsors.md
+      - "Media Kit": kcd2026/mediakit/README.md
     - KCD Suisse Romande 2025:
       - "Overview": kcd2025/README.md
     - Cloud Native Meetups: events/meetups/README.md
