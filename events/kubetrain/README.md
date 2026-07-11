@@ -1,7 +1,7 @@
 ---
 title: KubeTrain from Lausanne and Geneva
 description: >
-  Going to Kubecon | CloudNativeCon Europe?
+  Going to Kubecon | Cloud Native Con Europe?
   Consider hopping on a KubeTrain!
 ---
 
@@ -11,7 +11,7 @@ Going to Kubecon | CloudNativeCon Europe?
   Consider hopping on a KubeTrain!
 
 [KubeTrain](https://kubetrain.io/) is an initiative to bring fun and sustainable travel to all KubeCon attendees.
-The aim of this initiative is to organize groups of people that are willing to travel to the next destination of KubeCon by train.
+The aim of this initiative is to organize groups of people willing to travel to the next KubeCon destination by train.
 Our association helps to coordinate a KubeTrain from Lausanne and Geneva.
 
 <img style="float:right; width:300px;" src="./images/kubetrain_logo.png">
