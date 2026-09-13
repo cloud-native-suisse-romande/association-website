@@ -83,7 +83,6 @@ plugins:
   - redirects:
       redirect_maps:
         'events/kcd/README.md': https://kcd.cloud-native-romandy.ch/
-        'kcd2025/README.md': https://kcd.cloud-native-romandy.ch/
         'privacy-policy.md': policies/1_privacy-policy/README.md
 
 
