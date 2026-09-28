@@ -1,32 +1,31 @@
-// Credits - https://github.com/hitsumabushi845/MkDocs-with-Remote-Containers
 {
 	"name": "Material for MkDocs - VS Code dev container",
 	"image": "mcr.microsoft.com/devcontainers/python:3.12-trixie",
-  "features": {
-    "ghcr.io/devcontainers-extra/features/markdownlint-cli:1": {}
-  },
-  "customizations": {
-      "vscode": {
-        // Set *default* container specific settings.json values on container create.
-        "settings": {
-          "terminal.integrated.shell.linux": "/bin/bash",
-          "debug.javascript.usePreview": false
-        },
-        // Add the IDs of extensions you want installed when the container is created.
-        "extensions": [
-          "streetsidesoftware.code-spell-checker",
-          "yzhang.markdown-all-in-one",
-          "redhat.vscode-yaml",
-          "shardulm94.trailing-spaces",
-          "oderwat.indent-rainbow",
-          "msjsdiag.debugger-for-chrome"
-        ],
-      },
-    },
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [
-      8000
-    ],
+	"features": {
+	  "ghcr.io/devcontainers-extra/features/markdownlint-cli:1": {}
+	},
+	"customizations": {
+	  "vscode": {
+  		// Set *default* container specific settings.json values on container create.
+  		"settings": {
+  		  "terminal.integrated.shell.linux": "/bin/bash",
+  		  "debug.javascript.usePreview": false
+  		},
+  		// Add the IDs of extensions you want installed when the container is created.
+  		"extensions": [
+  		  "streetsidesoftware.code-spell-checker",
+  		  "yzhang.markdown-all-in-one",
+  		  "redhat.vscode-yaml",
+  		  "shardulm94.trailing-spaces",
+  		  "oderwat.indent-rainbow",
+  		  "msjsdiag.debugger-for-chrome"
+  		],
+	  },
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+	  8000
+	],
 	"postCreateCommand": "pip install -r .devcontainer/requirements.txt"
 }
 
