@@ -2,8 +2,10 @@
 
 ## Association Contacts
 
-* Address: Association Cloud Native Suisse Romande, CH-2000 Neuchâtel
-* E-mail: `contact at cloud-native-romandy.ch`
+* Legal name: _Association Cloud Native Suisse Romande_
+* Address: _Association Cloud Native Suisse Romande, CH-2000 Neuchâtel_
+* General e-mail: _`contact at cloud-native-romandy.ch`_
+* Treasurer e-mail: _`treasurer at cloud-native-romandy.ch`_
 
 ## Slack
 
