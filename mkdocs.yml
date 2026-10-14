@@ -23,16 +23,17 @@ exclude_docs: |
   hooks
 
 nav:
-  - Events:
-    - Overview: events/README.md
+  - KCD Suisse Romande:
     - KCD Suisse Romande 2026:
       - "Overview": kcd2026/README.md
       - "Schedule": kcd2026/program.md
       - "Speakers": kcd2026/speakers.md
       - "Sponsors": kcd2026/sponsors.md
       - "Media Kit": kcd2026/mediakit/README.md
-    - KCD Suisse Romande 2025:
-      - "Overview": kcd2025/README.md
+    - Archive:
+      -  "KCD Suisse Romande 2025": kcd2025/README.md
+  - Other Events:
+    - Overview: events/README.md
     - Cloud Native Meetups: events/meetups/README.md
     - Kubetrain Europe: events/kubetrain/README.md
   - "Join Us!":
