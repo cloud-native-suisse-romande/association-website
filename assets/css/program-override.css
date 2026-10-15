@@ -1,3 +1,17 @@
-:root {
+:root > * {
     --md-default-bg-color: #ffffff;
+    --md-color-scheme: light;
+}
+
+.md-header {
+    position: initial;
+    display: none;
+}
+
+.md-tabs {
+    display: none;
+}
+
+body > div.md-container > main > div > div.md-content > article > a {
+    display: none;
 }

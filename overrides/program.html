@@ -1,10 +1,11 @@
 {% extends "main.html" %}
 
-{% block scripts %}
-<link rel=stylesheet href="/assets/css/program-override.css">
+{% block tabs %}
+  {{ super() }}  
 {% endblock %}
 
-{% block tabs %}
+{% block scripts %}
+<link rel=stylesheet href="/assets/css/program-override.css">
 {% endblock %}
 
 {% block content %}
