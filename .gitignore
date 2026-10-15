@@ -4,3 +4,6 @@ _site
 temp_dir
 .multirepo
 
+# Testing
+test.md
+test-*.md

@@ -1,6 +1,9 @@
 :root > * {
-    --md-default-bg-color: #ffffff;
     --md-color-scheme: light;
+}
+
+.md-content {
+    background-color: #ffffff;
 }
 
 .md-header {

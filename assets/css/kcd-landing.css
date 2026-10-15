@@ -1,0 +1,13 @@
+body > div.md-container > main > div > div.md-content > article > div > table:nth-child(n+31) {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+
+    td {
+        vertical-align: middle;
+    }
+
+    thead {
+        display: none;
+    }
+}
